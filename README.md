@@ -1,5 +1,6 @@
-### Hi there 👋
-
+## Hello! I'm Joshua Micah Sullivan a 1st Year Software Engineer Student at UC Irvine 👋
+#### [LinkedIn](https://www.linkedin.com/in/joshua-sullivan-0b4193292/)  
+#### [Contact Me!](mailto:jmsulli3@uci.edu)
 <!--
 **Hydrohaven/Hydrohaven** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
