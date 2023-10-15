@@ -1,4 +1,4 @@
-## Hello! I'm Joshua Micah Sullivan a 1st Year Software Engineer Student at UC Irvine 👋
+## Hello
 #### [LinkedIn](https://www.linkedin.com/in/joshua-sullivan-0b4193292/)  
 #### [Contact Me!](mailto:jmsulli3@uci.edu)
 <!--
