@@ -3,7 +3,7 @@ Yo my name is Josh and I'm majoring in SWE at UCI
 
 I'm pretty much a beginner when it comes to programming as a lot of my knowledge comes from self-teaching myself some random stuff but I'd love to learn more through actual classes and courses here UCI and whatever other resources I find.
 
-
+I LOVE K-pop and my favorite groups are IZ*ONE, LE SSERAFIM, and aespa 
 
 #### [LinkedIn](https://www.linkedin.com/in/joshua-sullivan-0b4193292/)  
 #### [Contact Me!](mailto:jmsulli3@uci.edu)
