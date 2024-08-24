@@ -1,10 +1,6 @@
-## Hello
-Yo my name is Josh and I'm majoring in SWE at UCI
-
-I'm pretty much a beginner when it comes to programming as a lot of my knowledge comes from self-teaching myself some random stuff but I'd love to learn more through actual classes and courses here UCI and whatever other resources I find.
-
-#### [LinkedIn](https://www.linkedin.com/in/joshua-sullivan-0b4193292/)  
-#### [Contact Me!](mailto:jmsulli3@uci.edu)
+# Hello!
+SWE Sophomore at UCI, looking to switch major to CS with a specialization in Systems and Software, as well as a minor in Bioinformatics.\
+I mainly create projects that solve some issue or problem I come across, hoping that others face the same issues.
 <!--
 **Hydrohaven/Hydrohaven** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
