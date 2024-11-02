@@ -1,6 +1,6 @@
 # Hello!
-SWE Sophomore at UCI, looking to switch major to CS with a specialization in Systems and Software, as well as a minor in Bioinformatics.\
-I mainly create projects that solve some issue or problem I come across, hoping that others face the same issues.
+Sophomore majoring in CS at UCI with a specialization in Systems and Software.\
+I like creating apps that solve some issue or problem I come across, hoping that others face the same issues.
 <!--
 **Hydrohaven/Hydrohaven** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
