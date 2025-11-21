@@ -1,5 +1,5 @@
 # Hello!
-Sophomore majoring in CS at UCI with a specialization in Systems and Software.\
+Junior majoring in CS at UCI with a specialization in Systems and Software.\
 I like creating apps that solve some issue or problem I come across, hoping that others face the same issues.\
 Connect with me on [LinkedIn]([url](https://www.linkedin.com/in/joshua-micah-sullivan)) please.
 <!--
