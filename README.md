@@ -8,9 +8,9 @@
 </div>
 
 <p align="center">
-  <!--START_BANNER-->
+<!--START_BANNER-->
   <img src="FALL_GIF_URL_HERE" alt="Seasonal Banner" width="100%" style="max-width: 700px;">
-  <!--END_BANNER-->
+<!--END_BANNER-->
   <br>
   <sub><i>Pixel Art creds: <a href="https://www.tumblr.com/anasabdin">@anasabdin</a></i></sub>
 </p>
