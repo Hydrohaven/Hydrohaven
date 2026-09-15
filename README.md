@@ -1,18 +1,15 @@
-# Hello!
-Junior majoring in CS at UCI with a specialization in Systems and Software.\
-I like creating apps that solve some issue or problem I come across, hoping that others face the same issues.\
-Connect with me on [LinkedIn]([url](https://www.linkedin.com/in/joshua-micah-sullivan)) please.
-<!--
-**Hydrohaven/Hydrohaven** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joshua-micah-sullivan/)
+![Gmail](https://img.shields.io/badge/Gmail-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white)
+[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white)](https://hydrohaven.itch.io/)
+[![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/Hydrohaven)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+<p align="center">
+  <img src="FALL_GIF_URL_HERE" alt="Seasonal Banner" width="100%" style="max-width: 700px;">
+</p>
+
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=00t78m5ewn784h89ecj6rh5i7&cover_image=true&theme=spotify-embed&show_offline=false&background_color=0d1117&interchange=false&profanity=false&hide_remaster=false&mode=dark)](https://spotify-github-profile.kittinanx.com/api/view?uid=00t78m5ewn784h89ecj6rh5i7&redirect=true)
