@@ -6,6 +6,14 @@
 
 I like making stuff I find fun or cool. Tryna do more game dev and embedded 😁
 
+## Currently learning...
+<div style="padding-left: 20px;">
+  🎮 Game Dev! (Unity)<br>
+  🖼️ Photo-editing<br>
+  🧊 3D-modeling/Blender (soon)<br>
+  📟 Embedded (soon)
+</div>
+
 <br>
 
 <p align="center">
