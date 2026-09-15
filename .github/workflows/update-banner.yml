@@ -2,9 +2,8 @@ name: Update Seasonal Banner
 
 on:
   schedule:
-    # Runs at 00:00 UTC on the 1st day of every month
     - cron: '0 0 1 * *'
-  workflow_dispatch: # Allows manual trigger from the Actions tab
+  workflow_dispatch:
 
 jobs:
   update-banner:
@@ -15,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set Seasonal Banner
+      - name: Update README Banner
         run: |
           MONTH=$(date +%m)
 
@@ -34,22 +33,24 @@ jobs:
             SELECTED_URL="$WINTER"
           fi
 
-          echo "Updating banner for month $MONTH with URL: $SELECTED_URL"
+          echo "Selected URL: $SELECTED_URL"
 
-          python3 -c "
-          import re
+          # Replace all lines between <!--START_BANNER--> and <!--END_BANNER-->
+          awk -v url="$SELECTED_URL" '
+            /<!--START_BANNER-->/ {
+              print;
+              print "  <img src=\"" url "\" alt=\"Seasonal Banner\" width=\"100%\" style=\"max-width: 700px;\">";
+              skip = 1;
+              next;
+            }
+            /<!--END_BANNER-->/ {
+              skip = 0;
+            }
+            !skip { print }
+          ' README.md > README.tmp && mv README.tmp README.md
 
-          with open('README.md', 'r') as f:
-              content = f.read()
-
-          url = '$SELECTED_URL'
-          new_img = f'<img src=\"{url}\" alt=\"Seasonal Banner\" width=\"100%\" style=\"max-width: 700px;\">'
-          pattern = r'(<!--START_BANNER-->)[\s\S]*?(<!--END_BANNER-->)'
-          updated = re.sub(pattern, f'\\1\n  {new_img}\n  \\2', content)
-
-          with open('README.md', 'w') as f:
-              f.write(updated)
-          "
+          echo "--- Resulting README.md diff ---"
+          git diff README.md
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
