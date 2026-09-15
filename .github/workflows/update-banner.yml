@@ -35,15 +35,14 @@ jobs:
 
           echo "Selected URL: $SELECTED_URL"
 
-          # Replace all lines between <!--START_BANNER--> and <!--END_BANNER-->
           awk -v url="$SELECTED_URL" '
-            /<!--START_BANNER-->/ {
+            // {
               print;
               print "  <img src=\"" url "\" alt=\"Seasonal Banner\" width=\"100%\" style=\"max-width: 700px;\">";
               skip = 1;
               next;
             }
-            /<!--END_BANNER-->/ {
+            // {
               skip = 0;
             }
             !skip { print }
