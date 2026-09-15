@@ -9,7 +9,7 @@ I like making stuff I find fun or cool. Tryna do more game dev and embedded 😁
 <br>
 
 <p align="center">
-  <img src="https://cdnb.artstation.com/p/assets/images/images/025/112/011/original/anas-abdin-x-5d7af4f1d2e4ee9ddcb73250ee3d5c6b-c52e7ex-640.gif?1584652962" alt="Seasonal Banner">
+  <img src="https://cdnb.artstation.com/p/assets/images/images/025/112/011/original/anas-abdin-x-5d7af4f1d2e4ee9ddcb73250ee3d5c6b-c52e7ex-640.gif?1584652962" alt="Seasonal Banner" width="90%">
   <br>
   <sub><i>Pixel Art creds: <a href="https://www.tumblr.com/anasabdin">@anasabdin</a></i></sub>
 </p>
