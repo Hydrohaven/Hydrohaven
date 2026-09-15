@@ -2,9 +2,9 @@ name: Update Seasonal Banner
 
 on:
   schedule:
-    # Runs on the 1st day of every month at midnight
+    # Runs at 00:00 UTC on the 1st day of every month
     - cron: '0 0 1 * *'
-  workflow_dispatch: # Allows you to run it manually to test
+  workflow_dispatch: # Allows manual trigger from the Actions tab
 
 jobs:
   update-banner:
@@ -12,18 +12,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set Seasonal Banner
         run: |
           MONTH=$(date +%m)
-          # Define your URLs
+
           SPRING="https://i.pinimg.com/originals/3a/82/56/3a8256b391b0de71639848f2815c2b14.gif"
           SUMMER="https://64.media.tumblr.com/342233551f34116302414bf70505ed9c/ebeaa7d80c0a7223-37/s540x810/334ee9ef7b6abbb2eb55aea122d536c565ac29be.gif"
           FALL="https://cdnb.artstation.com/p/assets/images/images/025/112/011/original/anas-abdin-x-5d7af4f1d2e4ee9ddcb73250ee3d5c6b-c52e7ex-640.gif?1584652962"
           WINTER="https://cdna.artstation.com/p/assets/images/images/025/111/492/original/anas-abdin-snow.gif?1584651553"
 
-          # Determine season based on month numbers
           if [ "$MONTH" -ge 03 ] && [ "$MONTH" -le 05 ]; then
             SELECTED_URL="$SPRING"
           elif [ "$MONTH" -ge 06 ] && [ "$MONTH" -le 08 ]; then
@@ -34,23 +34,24 @@ jobs:
             SELECTED_URL="$WINTER"
           fi
 
-          echo "Selected URL for month $MONTH: $SELECTED_URL"
-          
-          # Replace the block in README.md (using python for safe multiline replacement)
+          echo "Updating banner for month $MONTH with URL: $SELECTED_URL"
+
           python3 -c "
+          import re
+
           with open('README.md', 'r') as f:
               content = f.read()
-          
-          import re
-          new_img = '<img src=\"' + '$SELECTED_URL' + '\" alt=\"Seasonal Banner\" width=\"100%\" style=\"max-width: 700px;\">'
-          pattern = r'(<!--START_BANNER-->\n).*(\n\s*<!--END_BANNER-->)'
-          updated = re.sub(pattern, r'\1' + new_img + r'\2', content)
-          
+
+          url = '$SELECTED_URL'
+          new_img = f'<img src=\"{url}\" alt=\"Seasonal Banner\" width=\"100%\" style=\"max-width: 700px;\">'
+          pattern = r'(<!--START_BANNER-->)[\s\S]*?(<!--END_BANNER-->)'
+          updated = re.sub(pattern, f'\\1\n  {new_img}\n  \\2', content)
+
           with open('README.md', 'w') as f:
               f.write(updated)
           "
 
-      - name: Commit and push if changed
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update seasonal README banner"
