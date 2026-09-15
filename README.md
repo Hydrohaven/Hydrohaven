@@ -8,7 +8,8 @@
 </div>
 
 <p align="center">
-  <img src="FALL_GIF_URL_HERE" alt="Seasonal Banner" width="100%" style="max-width: 700px;">
+  <img src="FALL_GIF_URL_HERE" alt="Seasonal Banner" width="100%" style="max-width: 700px;"><br>
+  <sub><i>Pixel Art creds: <a href="https://www.tumblr.com/anasabdin">@anasabdin</a></i></sub>
 </p>
 
 
