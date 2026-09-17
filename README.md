@@ -4,7 +4,7 @@
 [![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white)](https://hydrohaven.itch.io/)
 [![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/Hydrohaven)
 
-I like making stuff I find fun or cool. Tryna do more game dev and embedded 😁
+I like making stuff I find fun or cool. Tryna do more game dev and embedded cuz its way cooler than web dev 😁
 
 ## Currently learning...
 <div style="padding-left: 20px;">
