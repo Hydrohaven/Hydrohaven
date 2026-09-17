@@ -17,17 +17,20 @@ I like making stuff I find fun or cool. Tryna do more game dev and embedded 😁
 <br>
 
 <p align="center">
+  <!-- SPRING -->
+  <!-- <img src="https://i.pinimg.com/originals/3a/82/56/3a8256b391b0de71639848f2815c2b14.gif" alt="Seasonal Banner" width="90%"> -->
+
+  <!-- SUMMER -->
+  <!-- <img src="https://64.media.tumblr.com/342233551f34116302414bf70505ed9c/ebeaa7d80c0a7223-37/s540x810/334ee9ef7b6abbb2eb55aea122d536c565ac29be.gif" alt="Seasonal Banner" width="90%"> -->
+
+  <!-- FALL -->
   <img src="https://cdnb.artstation.com/p/assets/images/images/025/112/011/original/anas-abdin-x-5d7af4f1d2e4ee9ddcb73250ee3d5c6b-c52e7ex-640.gif?1584652962" alt="Seasonal Banner" width="90%">
+
+  <!-- WINTER -->
+  <!-- <img src="https://cdna.artstation.com/p/assets/images/images/025/111/492/original/anas-abdin-snow.gif?1584651553" alt="Seasonal Banner" width="90%"> -->
   <br>
   <sub><i>Pixel Art creds: <a href="https://www.tumblr.com/anasabdin">@anasabdin</a></i></sub>
 </p>
-
-<!-- SEASONS:
-SPRING: https://i.pinimg.com/originals/3a/82/56/3a8256b391b0de71639848f2815c2b14.gif
-SUMMER: https://64.media.tumblr.com/342233551f34116302414bf70505ed9c/ebeaa7d80c0a7223-37/s540x810/334ee9ef7b6abbb2eb55aea122d536c565ac29be.gif
-FALL:   https://cdnb.artstation.com/p/assets/images/images/025/112/011/original/anas-abdin-x-5d7af4f1d2e4ee9ddcb73250ee3d5c6b-c52e7ex-640.gif?1584652962
-WINTER: https://cdna.artstation.com/p/assets/images/images/025/111/492/original/anas-abdin-snow.gif?1584651553
--->
 
 ## Skills
 ### Languages
